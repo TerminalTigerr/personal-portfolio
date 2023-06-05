@@ -1,0 +1,21 @@
+/******GOOGLE FONT********/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;700&display=swap');
+
+/**************VARIABLE CSS***************************/
+:root {
+    --header-height: 3rem;
+
+    /****COLORS****/
+    --hue: 250 ;
+
+    --first-color: hsl(var(--hue), 69%, 61%);
+    --first-color-second: ;
+    --first-color-alt: ;
+    --first-color-lighter: ;
+    --title-color: ;
+    --text-color: ;
+    --text-color-light: ;
+    --input-color: ;
+    --body-color: ;
+    --container-color: ;
+}
