@@ -18,3 +18,13 @@ function hideMenu() {
         navMenu.classList.remove('show-menu')
     })
 }
+
+/************Remove Menu Mobile**************/
+const navLink = document.querySelectorAll('.nav__link')
+
+function linkAction() {
+    const navMenu = document.getElementById('nav-menu')
+    // remove show-menu when you click on any link
+    navMenu.classList.remove('show-menu')
+}
+navLink.forEach(n => n.addEventListener('click', linkAction))
